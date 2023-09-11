@@ -3,7 +3,7 @@
  */
 class FizzBuzz {
 
-    public static void main(String[] args) {
+    public static void main() {
 
 //        for (int i = 1; i < 100; i++) {
 //
@@ -38,7 +38,7 @@ class FizzBuzz {
         }
     }
 
-    private static Integer doFizzBuzz(Integer i) {
+    public static Integer doFizzBuzz(Integer i) {
         String s;
         s = "";
         if (i % 3 == 0){
